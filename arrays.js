@@ -5,13 +5,13 @@ function addElementToBeginningOfArray(chocolateBars, you){
 }
 
 function destructivelyAddElementToBeginningOfArray(chocolateBars,you){
-  chocolateBars.unshift(you);
-  return chocolateBars;
+  chocolateBars.unshift(you)
+  return chocolateBars
 }
 
 function addElementToEndOfArray(chocolateBars,you){
-  chocolateBars.push(you);
-  return chocolateBars;
+  chocolateBars.push(you)
+  return chocolateBars
 }
 
 function destructivelyAddElementToEndOfArray(bc){
