@@ -9,8 +9,8 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars,you){
   return chocolateBars;
 }
 
-function addElementToEndOfArray(ab){
-  chocolateBars.push(ab);
+function addElementToEndOfArray(chocolateBars,you){
+  chocolateBars.push(you);
   return chocolateBars;
 }
 
